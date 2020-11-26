@@ -13,3 +13,6 @@ Deploying the App:
 1. Currently it's deployed on github. So, intsall gh-pages
 2. run: npm run predeploy
 3. run: npm run deploy
+
+
+Note: Project has been setup using create-react-app
