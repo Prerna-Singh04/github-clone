@@ -28,6 +28,7 @@ class Home extends React.Component {
   }
 
   render() {
+    console.log("Inside render")
     const newState = this.state;
     const Data = this.state.response || {};
     console.log("Inside Home reander");
