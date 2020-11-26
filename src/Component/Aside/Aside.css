@@ -1,0 +1,153 @@
+.aside_main {
+  display: flex;
+}
+
+.aside_div_main {
+  border: 1px solid;
+  width: 25vw;
+  height: 100vh;
+  display: block;
+  border: 1px solid transparent;
+  margin-top: -5vh;
+}
+.aside_div_child_first {
+  width: 20vw;
+  height: 45vh;
+  overflow: hidden;
+  margin-left: 5vw;
+  border-radius: 50%;
+  border: 0.2px solid rgb(177, 176, 176);
+  /* background-color: white; */
+  /* background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAARVBMVEXw8PC30YDx8fLl6tvz8vbB15ezz3ji6NfE2Jy20H308vfn6+Czz3a10Hvl6t328/uwzXC/1ZHb5Mq704rY48PM3Ky50oSZ2ZhfAAACEUlEQVR4nO3cTXKbUBCFUYIA/SHbOHH2v9RkkFEmus/VUM/l8y2g6VOaPvUwSJIkSZL0XRsL6/F7w3Cqawg+Od7rvndPiOPpbanq7Rx8cZrXqu+t2xQJlx9VLZHwcq363nUmJGyNkLA1QsL2CAlbIyRsj5CwNULC9ggJWyMkbI+QsDVCwvYICVsjJGyPsG/hNWg93aanvV4eyazDhb/noG27BP2MRiXESuF1fn3+69zua/DjPLJR2VaVwmBWn6M6XYuQsP+1CAn7X4uQsP+1CAn7X4uQsP+1CAn7X4uQsP+1CAn7X4uQsP+1CAn7X4uQ8DOzbs9POEwvh4/KhMlNhXULbj28vD+StbJRyeGF8KbCcA46bckXE+BfYjBpWX9Fa9WdGrnVPfPJWs5TslcCzCp8yJQKC7cnJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQk/DbC8fn//+NTD3VFByim5KHCMN7nslMPhWUHKD6y1yZlpx4KSw9QHPwmqrBOX30VRki416y6CAn3mlUXIeFes+oiJNxrVl2EhHvNqouQcK9ZdRES7jWrLkLCvWbVRUi416y6CAn3mlUXIeFnZgWnHgrr9GpEYb1ejSjM1Yh/JcCsL/0mipCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJDwP+HRVyMOF34cfTUie4RQSTy6o4GSJEmSJH2t/gBibKrVsJX1uAAAAABJRU5ErkJggg==");
+  background-repeat: no-repeat;
+  background-size: cover; */
+  
+}
+
+.aside_div_child_second {
+  border: 1px solid transparent;
+  width: 20vw;
+  margin-bottom: 10px;  
+}
+.aside_div_child_second_username {
+  text-align: justify;
+  margin: 1vh 0.5vw 0.2vh 5vw;
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+  font-size: 20px;
+}
+.aside_div_child_second_loginname {
+  text-align: justify;
+  margin: 1vh 0.5vw 2vh 5vw;
+  color: rgb(114, 113, 113);
+  font-weight: lighter;
+  font-size: 17px;
+}
+.aside_div_child_second_biodata {
+  /* color: #03001c; */
+  color: #24292e;
+  width: 20vw;
+  margin-left: 5vw;
+  margin-top: 10px;
+  margin-bottom: 2.7vh;
+  text-align: initial;
+  word-spacing: 0.7px;
+  letter-spacing: 0.4px;
+  font-size: 14px;
+  font-weight: normal;
+  font-family: -apple-systemBlinkMacSystemFont, Segoe UI, Helvetica, Arial,
+    sans-serif, Apple Color Emoji, Segoe UI Emoji;
+}
+.aside_div_child_second_edit_button {
+  color: rgb(0, 0, 0);
+  background-color: snow;
+  width: 20vw;
+  height: 4.8vh;
+  margin-left: 5vw;
+  border-radius: 5px;
+  border: 0.5px solid rgb(207, 206, 206);
+  text-align: center;
+  font-weight: bolder;
+  font-size: 12px;
+  letter-spacing: 0.6px;
+}
+.aside_div_child_second_edit_button:hover {
+  color: rgb(2, 2, 2);
+  background-color: rgb(245, 240, 240);
+  width: 20vw;
+  height: 4.8vh;
+  margin-left: 5vw;
+  border-radius: 5px;
+  border: 0.5px solid rgb(199, 198, 198);
+  text-align: center;
+  font-weight: bolder;
+  font-size: 12px;
+}
+.aside_div_child_second_child_first ,.aside_div_child_second_child_second ,.aside_div_child_second_child_third {
+  border: 1px solid transparent;
+  /* border: 1px solid; */
+  margin-left: 5vw;
+  margin-top: 3vh;
+  width: 20vw;
+  word-spacing: 0.7px;
+  letter-spacing: 0.4px;
+  font-size: 14px;
+  font-weight: normal;
+  font-family: -apple-systemBlinkMacSystemFont, Segoe UI, Helvetica, Arial,
+    sans-serif, Apple Color Emoji, Segoe UI Emoji;
+  display: flex;
+}
+.aside_div_child_second_child_first span {
+  top: 5px;
+  align-self: center;
+}
+.aside_div_child_second_followers,
+.aside_div_child_second_following,
+.aside_div_child_second_stars {
+  width: 2px;
+  border: 0.5px solid transparent;
+  font-size: inherit;
+}
+.aside_div_child_second_company {
+  width: 20vw;
+  margin-top: 14px;
+  text-align: left;
+  word-spacing: 0.7px;
+  letter-spacing: 0.4px;
+  font-size: 14px;
+  font-weight: normal;
+  font-family: -apple-systemBlinkMacSystemFont, Segoe UI, Helvetica, Arial,
+    sans-serif, Apple Color Emoji, Segoe UI Emoji;
+}
+.aside_div_child_second_company{
+  margin-top: 0px;
+  text-align: left;
+  /* border: 1px solid; */
+}
+.aside_div_child_second_companyname , .aside_div_child_second_location{
+  padding: 8px 3px 3px 3px;
+  word-spacing: 0.7px;
+  letter-spacing: 0.4px;
+  font-size: 13px;
+  font-family: -apple-systemBlinkMacSystemFont, Segoe UI, Helvetica, Arial,
+    sans-serif, Apple Color Emoji, Segoe UI Emoji;
+}
+.aside_div_child_second_child_third{
+  margin-top: 0;
+}
+.aside_div_child_second_location{
+  margin-left: -0.8vw;
+}
+.aside_div_child_second_child_organization{
+  border-top: 1px solid rgb(219, 216, 216);
+   width: 21vw;
+   margin-left: 5vw;
+   padding-top: 10px;
+   text-align: left;
+   word-spacing: 0.7px;
+  letter-spacing: 0.4px;
+  font-size: 15px;
+  font-weight: normal;
+  font-family: -apple-systemBlinkMacSystemFont, Segoe UI, Helvetica, Arial,
+    sans-serif, Apple Color Emoji, Segoe UI Emoji;
+}

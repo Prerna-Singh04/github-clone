@@ -1,0 +1,62 @@
+.overview_div_main {
+  border: 1px solid transparent;
+  width: 70vw;
+  margin: 1vh 2vw 0.5vh 1.5vw;
+  text-align: justify;
+}
+.overview_div_main_title {
+  padding: 20px 12px 5px 13px;
+}
+.overview_div_main_child {
+  border: 1px solid transparent;
+  display: flex;
+  flex-wrap: wrap;
+}
+.overviewsmallcomp_div_main {
+  border: 0.5px solid rgb(173, 173, 173);
+  width: 32vw;
+  height: 22vh;
+  margin: 1vh 1vw;
+  border-radius: 6px;
+}
+
+.headline {
+  padding: 15px 10px 1px 10px;
+  color: rgb(45, 85, 196);
+  font-size: xx-small;
+  font-weight: bolder;
+}
+.headline:hover {
+  padding: 15px 10px 1px 10px;
+  color: rgb(45, 85, 196);
+  font-size: xx-small;
+  font-weight: bolder;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.address {
+  padding: 2px 5px;
+  color: rgb(0, 0, 0);
+  font-size: 12px;
+  font-weight: lighter;
+  width: 95%;padding: 4px;
+  height: 30px;
+  /* overflow-y: scroll; */
+  scrollbar-width: 8px;
+  border:  1px solid transparent;
+}
+.details {
+  left: 10px;
+  top: 20px;
+  font-size: xx-small;
+  font-weight: bolder;
+}
+
+.overviewsmallcomp_div_main_repo_details {
+  width: 10vw;
+  border: 1px solid transparent;
+  padding: 2px 0px 2.5px 2px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: lighter;
+}

@@ -1,0 +1,62 @@
+@media only screen and (min-width: 1200px) {
+  .navbar_main {
+    height: 9.5vh;
+    background-color: rgba(3, 1, 1, 0.9);
+    display: flex;
+    position: relative;
+  }
+  #git_logo {
+    margin: 1.8vh 3vw 1.9vh 2.5vw;
+  }
+  .navbar_main_child_first {
+    margin-left: 5vw;
+    margin-top: 2vh;
+  }
+  .navbar_main_details {
+    text-decoration: none;
+    color: whitesmoke;
+    margin: 1.5vh 1vw;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.4px;
+  }
+  .navbar_main_child_second {
+    width: 12vw;
+    height: 7vh;
+    position: absolute;
+    margin: 1.19vh 1vw;
+    right: 1vw;
+    display: flex;
+    /* border: 1px solid wheat; */
+    padding: 4px 20px;
+
+  }
+  .icon_style{
+    margin-right: 10px;
+    background-color: white;
+    width: 0.5vw;
+    border-radius: 60%;
+
+border: 1px solid white;
+  }
+  /* #navbar_main_child_second_symbols{
+    height: 1vh;
+    width: 1vw;
+  } */
+  /* .navbar_main_child_second_image{
+      width: 4vw;
+      height: 5vh;
+      border: 1px solid rgb(202, 199, 199);
+      border-radius: 50% ;
+      margin: 0.5vh 0.5vw;
+    } */
+    .navbar_main_child_second img{
+      width: 2.5vw;
+      height: 5vh;
+      /* overflow: hidden; */
+      margin: 0.5vh 0.5vw;
+      border: 1px solid rgb(235, 232, 232);
+      border-radius: 50% 50%;
+    }
+}

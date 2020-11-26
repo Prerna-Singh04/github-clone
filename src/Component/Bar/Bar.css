@@ -1,0 +1,42 @@
+@media only screen and (min-width: 1200px) {
+  .bar_main {
+    height: 12vh;
+    border-bottom: 1.5px solid rgba(156, 153, 153, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: -webkit-sticky;
+    position: sticky; */
+    top: 0px;
+  }
+  .bar_main_child {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial,
+      sans-serif, Apple Color Emoji, Segoe UI Emoji;
+    margin-top: 4vh;
+
+  }
+
+  .bar_main_value {
+    text-decoration: none;
+    color: rgb(26, 25, 25);
+    font-size: 12px;
+    font-weight: bolder;
+    border: 1.5px solid transparent;
+    padding: 12px 12px 11px 12px;
+    height: 10vh;
+  }
+  .bar_main_value:hover {
+    color: rgb(68, 67, 67);
+    font-size: 12px;
+    font-weight: bolder;
+    padding: 12px 12px 11px 12px;
+    cursor: pointer;
+    border-bottom: 2px solid rgba(150, 148, 148, 0.5);
+  }
+  .bar_main_value_logo {
+    border: 0.5px solid transparent;
+    padding: 0;
+    margin-right: 5px;
+    top: 10px;
+  }
+}
